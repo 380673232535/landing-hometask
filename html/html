@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"  content="width=device-width,initial-scale=1.0">
+    <title>freecodecamp</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+  </head>
+  <body>
+  <header id="header">
+      <img id="header-img" src="//res2.weblium.site/res/624306752507770022fc5c97/624eb1b3c6db6f0022e1bf6c?nowebp" alt="logo">
+  <nav id="nav-bar">
+<a href="#about us" class="nav-link">About us</a>
+<a href="#lessons" class="nav-link">Lessons</a>
+<a href="#teachers" class="nav-link">Teachers</a>
+<a href="#contact us" class="nav-link">Contact us</a>
+  </nav>
+ </header>
+ <main>
+   <h1 class="title">Lesson types:</h1>
+   <div class="container"> 
+<section id="lessons">
+    <div class="lessons__item">
+        <a href="#">
+          <img class="lessons_item-image" src="//res2.weblium.site/res/624306752507770022fc5c97/624d47f6eaa35600233a81a6_optimized?nowebp" alt="individual">
+        </a>
+        <p> Individual classes</p>
+    </div>
+ <div class="lessons__item">
+   <a href="#">
+     <img class="lessons_item-image" src="//res2.weblium.site/res/5e7334515fb91e00219e19b3/5e7b4375b30bf00022cfa17b_optimized_900_c900x600-0x0.webp" alt="couple">
+     </a>
+     <p> Couple classes</p>
+  </div>
+  <div class="lessons__item">
+    <a href="#">
+     <img class="lessons_item-image" src="//res2.weblium.site/res/5e7334515fb91e00219e19b3/5e7b45d4b30bf00022cfaddc_optimized_900_c900x592-0x0.webp" alt="group">
+     </a>
+     <p> Group classes</p>
+  </div>
+</section>
+<section id="video-section">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/lhFU5H5KPFE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</section>
+<section id="pricing">
+  <div class="pricing-card">
+    <h3>Individual lesson</h3>
+    <p>10$</p>
+    <p>Flexible scedule</p>
+    <a href="#">Buy now</a>
+  </div>
+  <div class="pricing-card">
+    <h3> Couple lesson</h3>
+    <p>7$</p>
+    <p>Planed scedule</p>
+    <a href="#">Buy now</a>
+  </div>
+   <div class="pricing-card">
+    <h3> Group lesson</h3>
+    <p>4$</p>
+    <p>Fixed scedule</p>
+    <a href="#">Buy now</a>
+  </div>
+  </section>
+  <section id="form_section">
+    <h2 class="form-h2">Do you want to sign up? Subscribe! </h2>
+    <form id="form" action="https://www.freecodecamp.com/email-submit" method="post">    
+      <input type="email" placeholder="Enter your email" id="email" name="email" required="">
+      <input type="Submit" value="Subscribe" id="submit">
+    </form>
+  </section>
+  </div>
+  </main>
+  <footer id="footer">
+  <nav class="footer-nav">
+    <a href="#">Terms</a>
+    <a href="#">Privacy</a>
+    <a href="#">Contact</a>
+  </nav>
+  <p>All rights reserved. Barinoff studio, 2022</p>
+</footer>

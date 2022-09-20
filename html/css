@@ -1,0 +1,252 @@
+:root { 
+font-family:Halvetica,sans-serif;  
+--background-color: #fff;
+--text-color: #000;
+--links-color: #CCFF66;
+--hover-links-color: #4bab33;
+--nav-bg-color: #4bab33; 
+}
+
+html {
+    display: block; 
+}
+
+header{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: var(--nav-bg-color);
+  position: fixed;
+  top: 0;
+}
+
+#header-img{
+width: 50%;
+display:block;
+margin: 15px auto;
+}
+
+* {
+margin: 0;
+padding: 0;
+box-sizing:border-box; 
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: var(--background-color);
+    display: block;
+    padding: 3px 9px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+}
+
+.title {
+    display: block;
+    margin: 200px auto;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+h1 {
+    display: block;
+    font-size: 30px;
+    margin-block-start: 30px;
+    margin-block-end: 30px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0
+}
+
+.lessons_item-image{
+    width: 90%;
+    margin: auto;
+    display: block;
+    border: 5px solid var(--links-color);
+}
+
+:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+}
+
+.lessons__item{
+    font-size: 25px;
+    font-weight: 400;
+    margin: 30px auto;
+    display: block;
+    width: 80%;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+p {
+    display: block;
+    text-align: center;
+    margin: 10 0;
+}
+
+#video-section {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+ }
+
+ section {
+    display: block;
+ }
+
+ .pricing-card {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 80%;
+    max-width: 250px;
+    text-align: center;
+    border: 3px solid var(--nav-bg-color);
+    background-color: var(--links-color);
+    border-radius: 15px;
+}
+
+h3 {
+    display: block;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+ }
+
+ .pricing-card>a {
+    display: block;
+    padding: 15px 20px;
+    background-color: var(--hover-links-color);
+    text-decoration: none;
+    color: var(--text-color);
+    border-radius: 5px;
+    font-size: 19px;
+    font-weight: 700;
+    border: 1px solid rgba(0, 0, 0, 0);
+}
+
+.pricing-card>a {
+    display:flex;
+    margin: 20px auto;
+    font-size: 16px;
+ }
+
+ 
+ a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: underline;
+ }
+
+ .form-h2 {
+    margin-bottom: 20px;
+    text-align: center;
+ }
+
+ h2 {
+    display: block;
+    font-size: 25px;
+    margin-block-start: 20px;
+    margin-block-end: 20px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+form {
+    display: block;
+ }
+
+#email {
+    width: 200px;
+    height: 40px;
+    border: 2px solid var(--links-color);
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+#submit {
+    margin: 20 0;
+    padding: 15px 25px;
+    font-size: 20px;
+    color: var(--hover-links-color)
+} 
+
+ #email,#submit {
+    display: block;
+    margin: auto;
+ }
+
+input[type="submit" i] {
+    appearance: auto;
+    user-select: none;
+    white-space: pre;
+    align-items: flex-start;
+    text-align: center;
+    cursor: default;
+    box-sizing: border-box;
+    background-color: buttonface;
+    color: buttontext;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-color: buttonborder;
+    border-image: initial;
+}
+
+    input {
+    writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: fieldtext;
+    letter-spacing: normal;
+    word-spacing: normal;
+    line-height: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    appearance: auto;
+    -webkit-rtl-ordering: logical;
+    cursor: text;
+    background-color: field;
+    margin: 0em;
+    padding: 1px 2px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+    border-image: initial;
+}
+
+#footer {
+    background-color: var(--nav-bg-color);
+    height: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-end;
+    color: var(--background-color);
+}
+
+footer {
+    display: block;
+ }
+
+ .footer-nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer-nav>a {
+    text-decoration: none;
+    color: var(--background-color);
+    margin: 5px 10px;
+}
+
